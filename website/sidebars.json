@@ -1,0 +1,8 @@
+{
+  "docs": {
+    "Overview": ["doc1"],
+    "Manual": ["doc3"],
+    "Services": ["doc2"],
+    "International": ["doc4"]
+  }
+}
