@@ -13,19 +13,19 @@ const users = [
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
-];
+]
 
 const siteConfig = {
-  title: 'Test Site' /* title for your website */,
-  tagline: 'A website for testing',
+  title: 'Static Site' /* title for your website */,
+  tagline:
+    'This one is written in React, but the other pages are just markdown',
   url: 'https://fredrikolovsson.github.io' /* your website url */,
   baseUrl: '/docusaurus-test/' /* base url for your project */,
   projectName: 'docusaurus-test',
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    { doc: 'doc1', label: 'About' },
+    { page: 'help', label: 'Help' },
+    { blog: true, label: 'News' },
   ],
   users,
   /* path to images for header/footer */
@@ -49,10 +49,7 @@ const siteConfig = {
     ]
   },*/
   // This copyright info is used in /core/Footer.js and blog rss/atom feeds.
-  copyright:
-    'Copyright © ' +
-    new Date().getFullYear() +
-    ' Fredrik Olovsson',
+  copyright: 'Copyright © ' + new Date().getFullYear() + ' Fredrik Olovsson',
   organizationName: 'fredrikolovsson', // or set an env variable ORGANIZATION_NAME
   projectName: 'docusaurus-test', // or set an env variable PROJECT_NAME
   highlight: {
@@ -64,6 +61,6 @@ const siteConfig = {
   repoUrl: 'https://github.com/fredrikolovsson/docusaurus-test',
   /* On page navigation for the current documentation page */
   // onPageNav: 'separate',
-};
+}
 
-module.exports = siteConfig;
+module.exports = siteConfig
