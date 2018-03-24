@@ -4,7 +4,7 @@
         <title>Static Site Blog</title>
         <link>https://fredrikolovsson.github.io/docusaurus-test/blog</link>
         <description>The best place to stay up-to-date with the latest Static Site news and events.</description>
-        <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 24 Mar 2018 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,14 @@
             <link>https://fredrikolovsson.github.io/docusaurus-test/blog</link>
         </image>
         <copyright>Copyright © 2018 Fredrik Olovsson</copyright>
+        <item>
+            <title><![CDATA[Announcing the new blog]]></title>
+            <link>https://fredrikolovsson.github.io/docusaurus-test/blog/2018/03/24/announcing-new-blog.html</link>
+            <guid>https://fredrikolovsson.github.io/docusaurus-test/blog/2018/03/24/announcing-new-blog.html</guid>
+            <pubDate>Sat, 24 Mar 2018 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>So this text is shown on the list page and then you can click to read more.</p>
+]]></description>
+        </item>
         <item>
             <title><![CDATA[New Version 1.0.0]]></title>
             <link>https://fredrikolovsson.github.io/docusaurus-test/blog/2017/10/24/new-version-1.0.0.html</link>
